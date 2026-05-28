@@ -1,0 +1,19 @@
+# Ignore everything by default so only the script and project notes are uploaded.
+*
+
+# Keep these repository files.
+!tag_3d.py
+!README.md
+!.gitignore
+
+# Common generated/local files remain ignored.
+__pycache__/
+*.py[cod]
+*.html
+exports/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+Thumbs.db
